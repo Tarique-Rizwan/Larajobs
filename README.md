@@ -1,40 +1,32 @@
-# LaraGigs app
+# LaraJobs App
 
-An app for listing Laravel gigs/jobs. This project is from my YouTube "[Laravel From Scratch 2022](https://www.youtube.com/watch?v=MYyJ4PuL4pY)" course.
+Larajobs is a web application built with Laravel. Jobs portal for managing job announcements, and provides job seekers with the ability to create their CVs and apply for any vacancy. Application cover complete CURD operation like create a task, view task, update task and delete a task. Application developed with Laravel functionality like routing, controller, model etc.
 
-![Alt text](/public/images/screen.png "LaraGigs")
+# Screenshots
 
-## Usage
+- **Home**
 
-### Database Setup
-This app uses MySQL. To use something different, open up config/Database.php and change the default driver.
+![home](https://github.com/Tarique-Rizwan/Larajobs/assets/111663110/6ada94d4-eb58-4171-87bd-f543cbe0de9c)
 
-To use MySQL, make sure you install it, setup a database and then add your db credentials(database, username and password) to the .env.example file and rename it to .env
 
-### Migrations
-To create all the nessesary tables and columns, run the following
-```
-php artisan migrate
-```
+- **Register**
 
-### Seeding The Database
-To add the dummy listings with a single user, run the following
-```
-php artisan db:seed
-```
+![register](https://github.com/Tarique-Rizwan/Larajobs/assets/111663110/7ceb488c-63f8-4c25-9a95-7dcfcb9d3cf5)
 
-### File Uploading
-When uploading listing files, they go to "storage/app/public". Create a symlink with the following command to make them publicly accessible.
-```
-php artisan storage:link
-```
 
-### Running The App
-Upload the files to your document root, Valet folder or run 
-```
-php artisan serve
-```
+- **Login**
 
-## License
+![login](https://github.com/Tarique-Rizwan/Larajobs/assets/111663110/e8e0acea-ed73-4151-9ac4-874f72c299d0)
 
-The LaraGigs app is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+- **Post a Job**
+
+![post-a-job](https://github.com/Tarique-Rizwan/Larajobs/assets/111663110/d0e54b74-34fc-400a-80e1-6c10107f6e75)
+
+
+- **Manage**
+
+![manage](https://github.com/Tarique-Rizwan/Larajobs/assets/111663110/2eb542e9-18c6-4adf-becc-ddd659b1f1f9)
+
+
+
